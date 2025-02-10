@@ -1,26 +1,29 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import BreakingNews from './components/BreakingNews';
-import Weather from './components/Weather';
-import Stock from './components/Stock'; // Changed from StockMarket to Stock
-import Premium from './components/Premium'; // Changed from PremiumContent to Premium
-import Sports from './components/Sports';
-import Politics from './components/Politics';
-import Technology from './components/Technology';
-import Health from './components/Health';
-import Settings from './components/Settings';
+import Navbar from './Navbar';
+import BreakingNews from './server/BreakingNews';
+import Weather from './server/Weather';
+import Stock from './server/Stock';
+import Premium from './server/Premium';
+import Sports from './server/Sports';
+import Politics from './server/Politics';
+import Technology from './server/Technology';
+import Health from './server/Health';
+import Settings from './Settings';
 
-import Business from './components/Business';
-import Science from './components/Science';
-import Entertainment from './components/Entertainment';
-import Religion from './components/Religion';
-import Education from './components/Education';
-import Travel from './components/Travel';
-import Environment from './components/Environment';
-import './components/BreakingNews.css';
-import './components/Weather.css';
-import './components/Premium.css';
+import Business from './server/Business';
+import Science from './server/Science';
+import Entertainment from './server/Entertainment';
+import Religion from './server/Religion';
+import Education from './server/Education';
+import Travel from './server/Travel';
+import Environment from './server/Environment';
+
+import './client/BreakingNews.css';
+import './client/Weather.css';
+import './client/Premium.css';
+import './client/Navbar.css';
+import './client/Stock.css';
 
 
 function App() {

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './Stock.css';
 
 const API_KEY = 'csl5hgpr01qq49fgn1r0csl5hgpr01qq49fgn1rg'; // Your API key
 const STOCKS = ['AAPL', 'GOOGL', 'MSFT', 'AMZN', 'FB', 'TSLA', 'NFLX', 'NVDA', 'INTC', 'AMD'];
